@@ -1,0 +1,20 @@
+Question 3: 
+
+Explain upper bounded wildcards and lower bounded wildcards with an example.
+
+wildcards which are represented by ('?')
+
+Upper bounded wildcards are used to restrict unknown types to a particular type/sub-type of a type. We do this by using the 
+‘?’ with 'extends' . It is meant to reduce the total possible restrictions that can occur 
+
+Example:
+void addToList(List<? extends Number> numbers)
+
+Lower bounded wildcards: 
+
+Lower bounded wildcards are used to restrict unknown types to a particular type or super-type of a type. We do this by using the '?'
+keyword with super keyword
+
+Example:
+
+List<? super Double> list 
